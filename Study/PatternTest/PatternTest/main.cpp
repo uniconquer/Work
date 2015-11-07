@@ -82,7 +82,7 @@ void Observer()
 
 }
 
-void ShowCost( std::string szDesc, double fCost )
+void ShowCost(std::string szDesc, double fCost)
 {
 	std::cout<< szDesc <<":$"<<fCost<<std::endl;
 }

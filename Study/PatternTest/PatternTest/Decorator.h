@@ -9,7 +9,7 @@ class CondimentDecorator : public Beverage
 class Mocha : public CondimentDecorator
 {
 public:
-	Mocha( Beverage* pBeverage )
+	Mocha(Beverage* pBeverage)
 	{
 		m_pBeverage = pBeverage;
 	}

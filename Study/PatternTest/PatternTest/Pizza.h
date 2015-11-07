@@ -65,7 +65,7 @@ class CMrPizzaStore : public CPizzaStore
 {
 	virtual CPizza* CreatePizza(PIZZA_TYPE eType)
 	{
-		switch( eType )
+		switch(eType)
 		{
 		case PIZZA_TYPE_CHEESE:
 			{
@@ -88,7 +88,7 @@ class CDominosPizzaStore : public CPizzaStore
 {
 	virtual CPizza* CreatePizza(PIZZA_TYPE eType)
 	{
-		switch( eType )
+		switch(eType)
 		{
 		case PIZZA_TYPE_CHEESE:
 			{
