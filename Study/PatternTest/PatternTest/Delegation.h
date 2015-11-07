@@ -19,10 +19,18 @@ struct DelegateInt
 };
 
 
-struct Menu
+class Menu
 {
+public:
+	Menu();
+	virtual ~Menu();
 	Delegate Callback;
 };
+
+Menu::Menu()
+{}
+Menu::~Menu()
+{}
 
 void DoOpen( void ){ std::cout << "DoOpen" << std::endl; }
 void DoClose( void ){ std::cout << "DoClose" << std::endl; }
