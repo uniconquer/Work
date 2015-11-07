@@ -11,12 +11,12 @@ Duck::~Duck(void)
 {
 }
 
-void Duck::SetFlyBehavior( CFlyBehavior* Fb )
+void Duck::SetFlyBehavior(CFlyBehavior* Fb)
 {
 	m_FlyBehavior = Fb;
 }
 
-void Duck::SetQuackBehavior( CQuackBehavior* Qb )
+void Duck::SetQuackBehavior(CQuackBehavior* Qb)
 {
 	m_QuackBehavior = Qb;
 }

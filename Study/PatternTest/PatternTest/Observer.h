@@ -20,7 +20,7 @@ public:
 class CConditionDisplay : public CObserver
 {
 public:
-	CConditionDisplay( CSubject* pSubject );
+	CConditionDisplay(CSubject* pSubject);
 	virtual ~CConditionDisplay();
 
 	virtual void Update(float Temp, float Humidity, float Pressure);
