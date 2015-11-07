@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="1. Strategy">
+      <UniqueIdentifier>{321e4ab4-8e05-4282-8bc2-2910b40a6df7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Observer">
+      <UniqueIdentifier>{b4309e1b-f33c-4fb8-a242-175473f921fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Decorator">
+      <UniqueIdentifier>{8e23dd5a-d8b0-47b9-b16e-4f69d110d87b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="0. 함수포인터 위임">
+      <UniqueIdentifier>{4a33b4b5-8533-435f-b142-a620bc9e89a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. Factory Method">
+      <UniqueIdentifier>{8c1c9f4e-c84d-464b-a91e-5358709fb9a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. Singleton">
+      <UniqueIdentifier>{3a173a1f-abeb-4c67-a44a-abbe5d74bfb7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Duck.cpp">
+      <Filter>1. Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyBehavior.cpp">
+      <Filter>1. Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="QuackBehavior.cpp">
+      <Filter>1. Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>2. Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>2. Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Beverage.cpp">
+      <Filter>3. Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Decorator.cpp">
+      <Filter>3. Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Pizza.cpp">
+      <Filter>4. Factory Method</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyBehavior.h">
+      <Filter>1. Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="QuackBehavior.h">
+      <Filter>1. Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="Duck.h">
+      <Filter>1. Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>2. Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>2. Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Delegation.h">
+      <Filter>0. 함수포인터 위임</Filter>
+    </ClInclude>
+    <ClInclude Include="Beverage.h">
+      <Filter>3. Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Decorator.h">
+      <Filter>3. Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Pizza.h">
+      <Filter>4. Factory Method</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>5. Singleton</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
