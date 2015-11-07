@@ -50,10 +50,10 @@ public:
 class CPizzaStore
 {
 public:
-	virtual CPizza* CreatePizza( PIZZA_TYPE ) = 0;
-	CPizza* OrderPizza( PIZZA_TYPE eType )
+	virtual CPizza* CreatePizza(PIZZA_TYPE) = 0;
+	CPizza* OrderPizza(PIZZA_TYPE eType)
 	{
-		CPizza* pOrderPizza = CreatePizza( eType );
+		CPizza* pOrderPizza = CreatePizza(eType);
 		pOrderPizza->Bake();
 		pOrderPizza->Cut();
 		pOrderPizza->Box();
@@ -63,7 +63,7 @@ public:
 
 class CMrPizzaStore : public CPizzaStore
 {
-	virtual CPizza* CreatePizza( PIZZA_TYPE eType )
+	virtual CPizza* CreatePizza(PIZZA_TYPE eType)
 	{
 		switch( eType )
 		{
@@ -78,7 +78,7 @@ class CMrPizzaStore : public CPizzaStore
 			}			
 			break;
 		default:
-			return NULL;
+			return nullptr;
 			break;
 		}
 	}
@@ -86,7 +86,7 @@ class CMrPizzaStore : public CPizzaStore
 
 class CDominosPizzaStore : public CPizzaStore
 {
-	virtual CPizza* CreatePizza( PIZZA_TYPE eType )
+	virtual CPizza* CreatePizza(PIZZA_TYPE eType)
 	{
 		switch( eType )
 		{
@@ -101,7 +101,7 @@ class CDominosPizzaStore : public CPizzaStore
 			}			
 			break;
 		default:
-			return NULL;
+			return nullptr;
 			break;
 		}
 	}

@@ -17,5 +17,5 @@ class CQuack : public CQuackBehavior
 public:
 	CQuack();
 	virtual ~CQuack();
-	void Quack() { std::cout<< "Ва" <<std::endl; }
+	void Quack() {std::cout<< "Ва" <<std::endl;}
 };

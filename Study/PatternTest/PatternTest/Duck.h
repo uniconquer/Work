@@ -11,14 +11,14 @@ public:
 	Duck(void);
 	virtual ~Duck(void);
 
-	virtual void Swim() { std::cout<< std::string("수영") <<std::endl; }
-	virtual void Display() { std::cout<< m_DuckName <<std::endl; }
+	virtual void Swim() {std::cout<< std::string("수영") <<std::endl;}
+	virtual void Display() {std::cout<< m_DuckName <<std::endl;}
 
-	void PerformFly() { m_FlyBehavior->Fly();}
-	void PerformQuack() { m_QuackBehavior->Quack(); }
+	void PerformFly() {m_FlyBehavior->Fly();}
+	void PerformQuack() {m_QuackBehavior->Quack();}
 	
-	void SetFlyBehavior( CFlyBehavior* Fb );
-	void SetQuackBehavior( CQuackBehavior* Qb );
+	void SetFlyBehavior(CFlyBehavior* Fb);
+	void SetQuackBehavior(CQuackBehavior* Qb);
 protected:
 	std::string		m_DuckName;
 	CFlyBehavior*	m_FlyBehavior;
@@ -31,8 +31,8 @@ public:
 	MallardDuck();
 	virtual ~MallardDuck();
 
-	virtual void Swim() { std::cout<< "수영" <<std::endl; }
-	virtual void Display() { std::cout<< m_DuckName <<std::endl; }
+	virtual void Swim() {std::cout<< "수영" <<std::endl;}
+	virtual void Display() {std::cout<< m_DuckName <<std::endl;}
 };
 
 class RubberDuck : public Duck
@@ -41,6 +41,6 @@ public:
 	RubberDuck();
 	virtual ~RubberDuck();
 
-	virtual void Swim() { std::cout << "수영" << std::endl; }
-	virtual void Display() { std::cout << m_DuckName << std::endl; }
+	virtual void Swim() {std::cout << "수영" << std::endl;}
+	virtual void Display() {std::cout << m_DuckName << std::endl;}
 };

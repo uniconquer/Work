@@ -10,9 +10,9 @@ CObserver::~CObserver(void)
 {
 }
 
-CConditionDisplay::CConditionDisplay( CSubject* pSubject )
+CConditionDisplay::CConditionDisplay(CSubject* pSubject)
 {
-	pSubject->RegisterObserver( this );
+	pSubject->RegisterObserver(this);
 	m_pSubject = pSubject;
 }
 
@@ -21,7 +21,7 @@ CConditionDisplay::~CConditionDisplay()
 
 }
 
-void CConditionDisplay::Update( float Temp, float Humidity, float Pressure )
+void CConditionDisplay::Update(float Temp, float Humidity, float Pressure)
 {
 	m_Temperature = Temp;
 	m_Humidity = Humidity;

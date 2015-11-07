@@ -11,7 +11,7 @@ public:
 	CObserver(void);
 	virtual ~CObserver(void);
 
-	virtual void Update( float Temp, float Humidity, float Pressure ) = 0;
+	virtual void Update(float Temp, float Humidity, float Pressure) = 0;
 
 public:
 	std::string m_szName;
@@ -23,7 +23,7 @@ public:
 	CConditionDisplay( CSubject* pSubject );
 	virtual ~CConditionDisplay();
 
-	virtual void Update( float Temp, float Humidity, float Pressure );
+	virtual void Update(float Temp, float Humidity, float Pressure);
 	void Display();
 private:
 	CSubject* m_pSubject;

@@ -27,7 +27,7 @@ private:
 class Soy : public CondimentDecorator
 {
 public:
-	Soy( Beverage* pBeverage )
+	Soy(Beverage* pBeverage)
 	{
 		m_pBeverage = pBeverage;
 	}
@@ -45,7 +45,7 @@ private:
 class Whip : public CondimentDecorator
 {
 public:
-	Whip( Beverage* pBeverage )
+	Whip(Beverage* pBeverage)
 	{
 		m_pBeverage = pBeverage;
 	}
@@ -63,7 +63,7 @@ private:
 class SteamMilk : public CondimentDecorator
 {
 public:
-	SteamMilk( Beverage* pBeverage )
+	SteamMilk(Beverage* pBeverage)
 	{
 		m_pBeverage = pBeverage;
 	}
