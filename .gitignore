@@ -5,3 +5,9 @@ Study/PatternTest/Debug/
 Study/M1Engine/.vs/M1Engine/v14/.suo
 Study/PatternTest/.vs/PatternTest/v14/.suo
 Study/M1Engine/M1Engine.opensdf
+Study/M1Engine/x64/
+Study/M1Engine/M1Engine/x64/
+*.user
+*.ipch
+*.db
+*.sdf
