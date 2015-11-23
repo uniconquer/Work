@@ -62,16 +62,34 @@
     <Image Include="Assets\Wide310x150Logo.scale-200.png">
       <Filter>자산</Filter>
     </Image>
+    <Filter Include="내용\Core">
+      <UniqueIdentifier>{75b36a4e-951a-4566-8b3c-1ad89d01fdbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="내용\Core\Object">
+      <UniqueIdentifier>{29da4dd4-96c0-446a-884e-7f1f95ae196e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="내용\Core\Component">
+      <UniqueIdentifier>{4ec2d2b0-aaed-4d47-9619-5564324b3b65}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="App.cpp" />
     <ClCompile Include="M1EngineMain.cpp" />
     <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Content\Core\Object\M1GameObject.cpp">
+      <Filter>내용\Core\Object</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="App.h" />
     <ClInclude Include="M1EngineMain.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="Content\Core\Object\M1GameObject.h">
+      <Filter>내용\Core\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\Core\M1RTTI.h">
+      <Filter>내용\Core</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest" />
